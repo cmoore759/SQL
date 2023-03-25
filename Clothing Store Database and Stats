@@ -1,0 +1,33 @@
+Create Table clothing (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, price INTEGER, color TEXT, sold INTEGER); 
+
+Insert into clothing VALUES
+(1,"tassle top", 45, 88, "blue", 24);
+Insert into clothing VALUES (2, "glitter top", 50, 87, "purple", 25); 
+insert into clothing VALUES (3, "white blouse", 50, 75, "yellow", 40); 
+Insert into clothing Values
+(4, "tasstle pants", 50, 108, "black",50);
+Insert into clothing VALUES
+(5, "trousers", 44, 78, "black",25);
+Insert into clothing values
+(6, "jacket", 66, 99, "blue", 34);
+insert into clothing values
+(7, "jean jacket", 67, 65, "blue", 56);
+insert into clothing values 
+(8, "leather pants", 67, 154, "black", 62); 
+insert into clothing values 
+(9, "pleather pants", 77, 80, "black", 44);
+insert into clothing values
+(10, "leather jacket", 54, 120, "black", 43);
+insert into clothing values 
+(11, "pleather jacket", 56, 110, "blue",44);
+insert into clothing values
+(12, "leather top", 54, 78, "yellow",53); 
+insert into clothing values
+(13, "tasstle jacket", 77, 125, "Purple",44); 
+insert into clothing values
+(14, "headbands", 55, 25, "green",44); 
+insert into clothing values
+(15, "generic tee", 77, 65, "green",56);
+
+select price, id, item from clothing order by price; 
+select SUM(price) from clothing; 
